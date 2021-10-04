@@ -1,24 +1,32 @@
 <h1 align="center">Hi 👋, I'm Jatin(Johnathan)</h1>
-<h3 align="center">A passionate IT field explorer and NOOb Coder</h3>
+<h3 align="center">A passionate IT explorer and a Noob Coder 🤓</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jatin711-debug&label=Profile%20views&color=0e75b6&style=flat" alt="jatin711-debug" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jatin711-debug" alt="jatin711-debug" /></a> </p>
 
+<p align="left"> <a href="https://twitter.com/jatinmahajan712" target="blank"><img src="https://img.shields.io/twitter/follow/jatinmahajan712?logo=twitter&style=for-the-badge" alt="jatinmahajan712" /></a> </p>
+
 - 🌱 I’m currently learning **React.Js && Redux.JS**
 
 - 👨‍💻 All of my projects are available at [https://github.com/jatin711-debug](https://github.com/jatin711-debug)
 
-- 💬 Ask me about **Frontend, Backend, Databases and about Deployment**
+- 💬 Ask me about **Frontend, Backend, Databases && About Deployment**
 
 - 📫 How to reach me **JatinMahajan711@protonmail.com**
 
-- ⚡ Fun fact **Am interested in real estate too**
+- ⚡ Fun fact **Am interested in Real Estate Too**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+<a href="https://codepen.io/jatin711-debug" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="jatin711-debug" height="30" width="40" /></a>
 <a href="https://twitter.com/jatinmahajan712" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jatinmahajan712" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/jatin-mahajan711/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/jatin-mahajan711/" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/https://stackoverflow.com/users/17074626/james-aurther" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/17074626/james-aurther" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/jatin_711" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="jatin_711" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/jatinmahajan711" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="jatinmahajan711" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/jatin711-debug" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="jatin711-debug" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/jatin711debug" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="jatin711debug" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -27,3 +35,5 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jatin711-debug&show_icons=true&locale=en&layout=compact" alt="jatin711-debug" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jatin711-debug&show_icons=true&locale=en" alt="jatin711-debug" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jatin711-debug&" alt="jatin711-debug" /></p>
