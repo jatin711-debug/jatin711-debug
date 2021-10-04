@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **Frontend, Backend, Databases && About Deployment**
 
-- 📫 How to reach me **JatinMahajan711@protonmail.com**
+- 📫 How to reach me **JatinMahajan711@protonmail.com || Jatin711@mail2tor.com**
 
 - ⚡ Fun fact **Am interested in Real Estate Too**
 
