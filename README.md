@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/jatinmahajan712" target="blank"><img src="https://img.shields.io/twitter/follow/jatinmahajan712?logo=twitter&style=for-the-badge" alt="jatinmahajan712" /></a> </p>
 
-- 🌱 I’m currently learning **React, Redux, Blockchain, Solidity**
+- 🌱 I’m currently learning **NextJs, Blockchain, Moralis, Alchemy**
 
 - 👨‍💻 All of my projects are available at [https://github.com/jatin711-debug](https://github.com/jatin711-debug)
 
