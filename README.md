@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jatin(Johnathan)</h1>
-<h3 align="center">A passionate IT explorer and a Noob Coder 🤓</h3>
+<h3 align="center">I am a Code Crafter: Turning Lines into Masterpieces🤓</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jatin711-debug&label=Profile%20views&color=0e75b6&style=flat" alt="jatin711-debug" /> </p>
 
