@@ -6,32 +6,16 @@ _Full-Stack Architect | Blockchain Pioneer | Innovation Catalyst_
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jatin711-debug)
 
 ---
-
 I am a passionate and results-driven software engineer with a focus on building scalable and innovative solutions. My expertise lies in full-stack development, with a deep interest in blockchain technology and its potential to revolutionize industries. I am always eager to learn and apply new technologies to solve complex problems.
 
 ## 🚀 Core Competencies
-
 - **Frontend:** React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS
 - **Backend:** Node.js, Express, Python, Flask, Go
 - **Blockchain:** Solidity, Web3.js, Ethers.js, Moralis, Alchemy
 - **Databases:** MongoDB, PostgreSQL, MySQL, Redis
 - **Cloud & DevOps:** AWS, Google Cloud, Docker, Kubernetes, Git, Nginx
 - **Tools:** VS Code, Figma, Postman, Blender, Unity
-
 ---
-
-## 🔧 Projects
-
-### [Project Name 1](link-to-project-repo-or-live-demo)
-*Brief, impactful description of the project and the problem it solves.*
-- **Tech Stack:** `React`, `Node.js`, `MongoDB`, `AWS`
-
-### [Project Name 2](link-to-project-repo-or-live-demo)
-*Brief, impactful description of the project and the problem it solves.*
-- **Tech Stack:** `Next.js`, `Solidity`, `Ethers.js`, `IPFS`
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
