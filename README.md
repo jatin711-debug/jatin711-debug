@@ -1,123 +1,306 @@
-# **Jatin Mahajan**  
-### _Full-Stack Architect • Vision AI Engineer • Systems Builder_
-
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jatin-mahajan711/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jatinmahajan712)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jatin711-debug)
-
----
-
-## 👋 About Me
-
-I’m an engineer dedicated to **building intelligent, scalable, high-performance software systems**.  
-My work spans across **full-stack development**, **computer vision**, **LLM-based automation**, **distributed backend systems**, and **developer tooling**.
-
-I thrive on solving challenging engineering problems and taking products from **idea → architecture → execution → production**.
-
-Currently, I’m co-building **Quantivision** — a next-gen Vision AI and Agentic Automation company focused on real-time intelligence, autonomous analytics, and high-impact engineering for modern enterprises.
-
----
-
-## 🚀 Core Engineering Stack
-
-### **Frontend Engineering**
-- React • Next.js 15 • React 19 • TypeScript  
-- Tailwind CSS • Three.js • React Three Fiber • Framer Motion  
-- Building immersive experiences and interactive 3D product sites  
-
-### **Backend Engineering**
-- **Golang** (Gin, gRPC, sqlc, concurrency patterns)  
-- **Node.js / Express**  
-- **Python** (FastAPI, Flask)  
-
-### **Systems, Distributed & Real-Time Engineering**
-- Kafka (Confluent stack, kafka-go)  
-- Custom logging pipelines with Kafka producers/consumers  
-- File-backed timestamp-triggered database in Go  
-- Pub/Sub systems with at-least-once delivery  
-- Microservice orchestration & modular codebases  
-
-### **AI / Machine Learning**
-- Vision AI (SAM, pose models, object tracking, sports analytics)  
-- Model fine-tuning (e.g., Med-GEMMA-4B-IT, Med-GEMMA-3)  
-- PyTorch training pipelines  
-- Attention heatmaps & CV interpretability  
-- Image/video compression & preprocessing (OpenCV, FFmpeg)  
-
-### **DevOps & Cloud**
-- Docker • Kubernetes • Helm  
-- AWS • GCP  
-- CI/CD workflows  
-- Nginx • PM2  
-
-### **Databases**
-- PostgreSQL • MySQL • MongoDB  
-- Redis  
-- sqlc (type-safe Go queries)  
-- golang-migrate/migrate  
-
-### **Tools & Creative Tech**
-- VS Code • Figma • Postman  
-- Blender • Unity (for experiments)  
-
----
-
-## 🛠️ Notable Work & Projects
-
-### **🔵 Quantivision — Vision AI + Agentic Intelligence**
-- Real-time sports analytics (player tracking, event understanding)  
-- Multi-model perception pipelines  
-- Agentic LLM workflows for automation  
-- Enterprise-scale dashboards and intelligence systems  
-
-### **⚙️ Timestamp-Triggered Database (Go)**
-- Custom file-backed DB  
-- gRPC-based subscription system  
-- At-least-once delivery pub/sub  
-- Pluggable scheduling engine  
-
-### **🧪 Medical AI Pipeline**
-- Fine-tuning Med-GEMMA-3 & 4B-IT on medical datasets  
-- Pneumothorax detection with attention heatmaps  
-- Torch training loops with configurable backbones  
-
-### **🟧 Rust CLI Task Tracker**
-- Modular architecture (`task.rs`, `db.rs`, etc.)  
-- Due dates, priorities, categories  
-- Optional SQLite/sled backend  
-- Terminal UI vision using Ratatui  
-
-### **🌌 Portfolio Website (React + Three.js)**
-- Galaxy/universe themed  
-- Physics-based interactions using Cannon.js  
-- Immersive 3D storytelling  
-
----
-
-## 🧠 Current Focus
-
-- Building **real-time multi-model Vision AI systems**  
-- Scaling **LLM agent pipelines** at Quantivision  
-- Mastering Go for high-performance backend architecture  
-- Training, optimizing, and visualizing ML models  
-- Refining Rust skills for systems programming  
-- Designing developer-friendly toolchains and CLIs  
-
----
-
-## 📊 GitHub Stats
+<!-- ===================================================== -->
+<!--                JATIN MAHAJAN README                   -->
+<!-- ===================================================== -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jatin711-debug&show_icons=true&theme=tokyonight&hide_border=true" alt="Jatin's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatin711-debug&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0d1117&text=Jatin%20Mahajan&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Distributed%20Systems%20•%20ML%20Infrastructure%20•%20Storage%20Engines&descAlignY=58&theme=tokyonight" width="100%" />
+</p>
+
+<h1 align="center">⚙️ Building Difficult Systems</h1>
+
+<p align="center">
+<b>Distributed Systems • ML Infrastructure • Database Internals • Video AI</b>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jatin711-debug&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+I enjoy building things that are hard to build — <br/>
+storage engines, distributed systems, multimodal inference pipelines, <br/>
+GPU-optimized systems, and low-latency backend architectures.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jatin-mahajan711/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://github.com/jatin711-debug">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="https://twitter.com/jatinmahajan712">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
+## 👨‍💻 About Me
+
+I'm an engineer obsessed with understanding systems from **first principles**.
+
+I spend most of my time building, breaking, optimizing, and understanding:
+
+- 🗄️ **Storage Engines & Database Internals**
+- ⚡ **Distributed Systems & Event-Driven Architectures**
+- 🧠 **ML Infrastructure & Multimodal Models**
+- 🎥 **Video AI & GPU-Optimized Pipelines**
+- 🦀 **Rust Systems Programming**
+- 🚀 **High-Performance Backend Systems**
+
+I like understanding **how things actually work under the hood** — from database WALs and scheduling engines to GPU memory bottlenecks in inference systems.
+
+---
+
+# 🚧 Currently Building
+
+### 🗄️ CronosDB
+A **timestamp-triggered pub/sub database** built in **Go**, designed to deliver events precisely when scheduled.
+
+**Current Focus**
+- At-least-once delivery semantics
+- gRPC-based subscriber architecture
+- Timestamp-based scheduling engine
+- File-backed storage engine
+- Event reliability & persistence
+- Distributed event delivery
+
+**Tech**
+`Go` `gRPC` `Kafka` `PostgreSQL` `SQLC`
+
+---
+
+### 🩺 Medical Multimodal AI
+Fine-tuning and experimenting with **Med-GEMMA models** for medical image understanding.
+
+**Current Work**
+- Medical image-text understanding
+- Pneumothorax detection
+- Attention heatmap visualization
+- Explainable multimodal AI
+- GPU memory optimization
+
+**Models**
+`Med-GEMMA-3` `Med-GEMMA-4B-IT`
+
+---
+
+## ⚙️ Engineering Interests
+
+I enjoy understanding systems deeply rather than treating them like black boxes.
+
+### Current Rabbit Holes 🕳️
+
+- Database internals
+- Storage engines
+- WAL & compaction systems
+- Distributed messaging guarantees
+- Kafka internals
+- Rust systems programming
+- LLM inference optimization
+- GPU scheduling & memory bottlenecks
+- Multimodal model architectures
+- Video understanding systems
+- Triton & scalable serving systems
+
+---
+
+## 🧰 Tech I Actually Use
+
+### Backend & Distributed Systems
+
+<p>
+<img src="https://skillicons.dev/icons?i=go,rust,postgres,mysql,mongodb,redis,docker,kubernetes" />
+</p>
+
+**Backend**
+- Go
+- Gin
+- gRPC
+- SQLC
+- PostgreSQL
+- Kafka (Confluent Stack)
+
+**Architecture**
+- Event-driven systems
+- Distributed services
+- Modular backend design
+- Low-latency pipelines
+
+---
+
+### 🧠 ML Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,pytorch,docker" />
+</p>
+
+**ML / Inference**
+- PyTorch
+- Triton Inference Server
+- vLLM
+- SGLang
+- Ollama
+- llama.cpp
+
+**Focus**
+- Multimodal models
+- Efficient inference
+- GPU optimization
+- Memory-constrained deployment
+- Medical AI
+
+---
+
+### 🎥 Video & Media Pipelines
+
+<p>
+<img src="https://skillicons.dev/icons?i=opencv" />
+</p>
+
+- FFmpeg
+- NVIDIA NVENC / NVDEC
+- Video preprocessing pipelines
+- High-throughput decoding
+- GPU-accelerated video workflows
+
+---
+
+## 🏗️ Systems Thinking
+
+I enjoy engineering systems that need to balance:
+
+```txt
+Performance ⚡
+Reliability 🛡️
+Scalability 📈
+Developer Experience 🧩
+```
+
+I care deeply about:
+
+```txt
+Concurrency
+Latency
+Throughput
+Fault tolerance
+Storage efficiency
+System observability
+```
+
+---
+
+## 🗄️ CronosDB — High Level Architecture
+
+```mermaid
+flowchart LR
+
+A[Publisher Service]
+B[gRPC Gateway]
+C[Storage Engine]
+D[Scheduling Engine]
+E[Delivery Pipeline]
+F[Subscriber Service]
+
+A --> B
+B --> C
+D --> C
+D --> E
+E --> F
+```
+
+### Goal
+
+Deliver events **at or near scheduled timestamps** with:
+
+- Reliable persistence
+- Event replay capability
+- At-least-once guarantees
+- Low operational complexity
+
+---
+
+## 📚 Learning In Public
+
+Currently exploring:
+
+### 🦀 Rust
+Going from:
+
+```txt
+Syntax → Systems Programming → Advanced Problem Solving
+```
+
+### 🗄️ Database Engineering
+Learning through building:
+
+- Storage engines
+- Scheduling systems
+- File-backed persistence
+- WAL patterns
+- LSM-tree concepts
+
+### 🚀 ML Systems
+Deep diving into:
+
+- Triton Inference Server
+- vLLM internals
+- Scalable multimodal inference
+- GPU scheduling
+- Efficient serving architectures
+
+---
+
+## 📈 GitHub Stats
+
 <p align="center">
-  ✨ Thanks for visiting!
+
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=jatin711-debug&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jatin711-debug&layout=compact&langs_count=8&theme=tokyonight"/>
+
+</p>
+
+---
+
+## 🔥 Contribution Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=jatin711-debug&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🧠 Engineering Philosophy
+
+```txt
+Understand systems deeply.
+Build things from first principles.
+Optimize for reliability.
+Learn publicly.
+Stay curious.
+```
+
+---
+
+## 🌍 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jatin-mahajan711/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://twitter.com/jatinmahajan712">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+
+</p>
+
+---
+
+<p align="center">
+<i>"Build things that teach you how systems actually work."</i>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=jatin711-debug&style=flat-square&color=blue" alt="profile views"/>
 </p>
