@@ -63,12 +63,13 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🗄️ <a href="https://github.com/jatin711-debug/CronosDB">CronosDB</a></h3>
+      <h3>🗄️ <a href="https://github.com/jatin711-debug/cronos_db_golang">CronosDB</a></h3>
       <p><b>Timestamp-triggered pub/sub database engineered for precise time-scheduled event delivery.</b></p>
       <ul>
-        <li>At-least-once delivery semantics with persistent event replay.</li>
-        <li>Custom file-backed storage engine with low operational overhead.</li>
-        <li>High-throughput gRPC subscriber pipeline &amp; scheduling engine.</li>
+        <li>At-least-once delivery semantics with persistent event replay by time range or offset.</li>
+        <li>Custom segmented write-ahead log with checksums and sparse indexes, plus Bloom-filter deduplication backed by PebbleDB.</li>
+        <li>Hierarchical timing-wheel scheduler and a backpressure-controlled gRPC delivery pipeline (ack timeouts, retries, dead letter queue).</li>
+        <li>Distributed: Raft for metadata, leader-follower WAL replication, consistent-hash partitioning. ~303K events/sec on a 3-node cluster (batched).</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
@@ -76,6 +77,8 @@
         <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
         <img src="https://img.shields.io/badge/SQLC-7aa2f7?style=flat-square" />
+        <img src="https://img.shields.io/badge/PebbleDB-7aa2f7?style=flat-square" />
+        <img src="https://img.shields.io/badge/Raft-7aa2f7?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -128,11 +131,11 @@
       <img src="https://img.shields.io/github/last-commit/jatin711-debug/TurboSupermemory?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Last commit" />
     </td>
     <td width="50%" align="center">
-      <b><a href="https://github.com/jatin711-debug/CronosDB">CronosDB</a></b><br/><br/>
-      <a href="https://github.com/jatin711-debug/CronosDB/stargazers"><img src="https://img.shields.io/github/stars/jatin711-debug/CronosDB?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Stars" /></a>
-      <a href="https://github.com/jatin711-debug/CronosDB/forks"><img src="https://img.shields.io/github/forks/jatin711-debug/CronosDB?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Forks" /></a>
-      <img src="https://img.shields.io/github/languages/top/jatin711-debug/CronosDB?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Top language" />
-      <img src="https://img.shields.io/github/last-commit/jatin711-debug/CronosDB?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Last commit" />
+      <b><a href="https://github.com/jatin711-debug/cronos_db_golang">CronosDB</a></b><br/><br/>
+      <a href="https://github.com/jatin711-debug/cronos_db_golang/stargazers"><img src="https://img.shields.io/github/stars/jatin711-debug/cronos_db_golang?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Stars" /></a>
+      <a href="https://github.com/jatin711-debug/cronos_db_golang/forks"><img src="https://img.shields.io/github/forks/jatin711-debug/cronos_db_golang?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Forks" /></a>
+      <img src="https://img.shields.io/github/languages/top/jatin711-debug/cronos_db_golang?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Top language" />
+      <img src="https://img.shields.io/github/last-commit/jatin711-debug/cronos_db_golang?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Last commit" />
     </td>
   </tr>
 </table>
@@ -173,15 +176,19 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    P([Publisher]) -->|event + timestamp| API[gRPC API]
-    API --> ST[("File-backed<br/>storage engine")]
-    ST --> SCH["Scheduling engine<br/>timestamp trigger"]
-    SCH -->|due events| SUB([gRPC Subscribers])
-    SUB -->|ack| SCH
-    ST -.->|replay| SUB
+    P([Publisher]) -->|"Publish / batch"| API[gRPC API]
+    API --> WAL[("Segmented WAL<br/>checksums + sparse index")]
+    API -.-> DD["Dedup<br/>Bloom filter + PebbleDB"]
+    WAL --> TW["Hierarchical timing wheel<br/>100 ms tick"]
+    TW -->|due events| DW["Delivery worker<br/>backpressure credits"]
+    DW -->|"Subscribe stream"| SUB([Consumer groups])
+    SUB -->|ack| DW
+    DW -.->|retries exhausted| DLQ[(Dead letter queue)]
+    WAL -.->|replay by time or offset| SUB
+    WAL --> F[("Follower nodes<br/>async WAL shipping")]
 ```
 
-At-least-once delivery: events are persisted before dispatch and replayed until acknowledged.
+Events are persisted to the write-ahead log before dispatch and redelivered until acknowledged. Across nodes, Raft keeps metadata consistent and consistent hashing routes events to partitions.
 
 </details>
 
