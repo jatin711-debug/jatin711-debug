@@ -116,16 +116,26 @@
 
 <a id="repos"></a>
 
-## 📌 Pinned Repositories
+## 📌 Repository Pulse
 
-<p align="center">
-  <a href="https://github.com/jatin711-debug/TurboSupermemory">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jatin711-debug&repo=TurboSupermemory&theme=tokyonight&hide_border=true&show_owner=false" alt="TurboSupermemory" />
-  </a>
-  <a href="https://github.com/jatin711-debug/CronosDB">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jatin711-debug&repo=CronosDB&theme=tokyonight&hide_border=true&show_owner=false" alt="CronosDB" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b><a href="https://github.com/jatin711-debug/TurboSupermemory">TurboSupermemory</a></b><br/><br/>
+      <a href="https://github.com/jatin711-debug/TurboSupermemory/stargazers"><img src="https://img.shields.io/github/stars/jatin711-debug/TurboSupermemory?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Stars" /></a>
+      <a href="https://github.com/jatin711-debug/TurboSupermemory/forks"><img src="https://img.shields.io/github/forks/jatin711-debug/TurboSupermemory?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Forks" /></a>
+      <img src="https://img.shields.io/github/languages/top/jatin711-debug/TurboSupermemory?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Top language" />
+      <img src="https://img.shields.io/github/last-commit/jatin711-debug/TurboSupermemory?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Last commit" />
+    </td>
+    <td width="50%" align="center">
+      <b><a href="https://github.com/jatin711-debug/CronosDB">CronosDB</a></b><br/><br/>
+      <a href="https://github.com/jatin711-debug/CronosDB/stargazers"><img src="https://img.shields.io/github/stars/jatin711-debug/CronosDB?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Stars" /></a>
+      <a href="https://github.com/jatin711-debug/CronosDB/forks"><img src="https://img.shields.io/github/forks/jatin711-debug/CronosDB?style=flat-square&logo=github&color=7aa2f7&labelColor=1a1b26" alt="Forks" /></a>
+      <img src="https://img.shields.io/github/languages/top/jatin711-debug/CronosDB?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Top language" />
+      <img src="https://img.shields.io/github/last-commit/jatin711-debug/CronosDB?style=flat-square&color=7aa2f7&labelColor=1a1b26" alt="Last commit" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -214,17 +224,20 @@ flowchart LR
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="195" src="https://github-readme-stats.vercel.app/api?username=jatin711-debug&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats (stars, commits, PRs, issues)" />
-  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatin711-debug&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats: stars, commits, PRs, issues" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top languages by repository" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top languages by commits" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Most productive time of day" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=jatin711-debug&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jatin711-debug&theme=tokyo-night&hide_border=true&area=true&radius=8" alt="Contribution activity graph" />
-</p>
+<p align="center"><sub>Cards are generated daily by a GitHub Action, so they never depend on a third-party server being online.</sub></p>
 
 ---
 
