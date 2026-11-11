@@ -1,0 +1,26 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # once a day at 00:00 UTC
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # The default token works for public data. If some cards come out empty, or you
+          # want private contributions counted, create a personal access token, save it
+          # as a repo secret named SUMMARY_GITHUB_TOKEN, and use that here instead:
+          # GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          # Optional: shifts the "productive time" card to your time zone (hours from UTC)
+          # UTC_OFFSET: 5
